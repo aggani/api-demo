@@ -18,9 +18,6 @@ class Home(View):
         return render(request, 'index.html')
 
 
-
-
-
 '''
 #concept of mixins-reusability of classes
 class ArticleList(generics.GenericAPIView, mixins.ListModelMixin,
