@@ -1,4 +1,4 @@
-# Here we're using urls directly from API rather than from API_Project/urls.py
+# Here we're using urls directly from API rather than from api-demo/urls.py
 
 from django.urls import path
 #from .views import article_list, article_details  (function based)
